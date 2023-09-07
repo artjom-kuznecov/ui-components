@@ -1,0 +1,10 @@
+.link {
+    width: 100%;
+    color: white;
+    display: block; 
+    font-family: 'Permanent Marker', cursive;
+    font-size: clamp(2em, 8vmin, 7em);
+    padding: clamp(0.25em, 1vmin, 1em) clamp(1em, 4vmin, 4em);
+    position: relative;
+    text-decoration: none;    
+}

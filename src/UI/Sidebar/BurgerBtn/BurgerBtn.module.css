@@ -1,0 +1,53 @@
+.burgerBtn {
+    width: 40px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+    margin: 50px;
+    z-index: 999;
+}
+
+.burgerBtn:before {
+    transition: 500ms;
+    width: 40px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: var(--accent);
+    left: 0;
+    top: 0;
+}
+
+.burgerBtn:hover:before {
+    transform: translateX(-10px);
+}
+
+.burgerBtn span {
+    transition: 700ms;
+    width: 40px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: var(--accent);
+    left: 0;
+    top: 10.5px;
+}
+.burgerBtn:hover span {
+    transform: translateX(10px);
+}
+
+
+.burgerBtn:after {
+    transition: 500ms;
+    width: 40px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: var(--accent);
+    left: 0;
+    bottom: 0;
+}
+
+.burgerBtn:hover:after {
+    transform: translateX(-10px);
+}

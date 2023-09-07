@@ -1,0 +1,19 @@
+
+/* COLORS */
+:root {
+    /* MAIN COLORS */
+    --bg: #2C3333;
+    --accent: #00FFAB;
+
+    /* CARDS COLORS */
+    --borderCard: #635985;
+    --gCard1: #18122B;
+    --gCard2: #393053;
+    --gCard3: #00FFAB;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg) ;
+}
